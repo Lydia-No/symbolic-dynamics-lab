@@ -49,3 +49,7 @@ zipfile
 st
 analysis/
 2}
+
+# Virtual environments
+.venv/
+venv/
