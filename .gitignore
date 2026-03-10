@@ -1,0 +1,51 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Project artifacts / dumps
+.artifacts/
+*.zip
+dump*.txt
+
+# Junk files accidentally created by pasting python into bash
+argparse
+fnmatch
+os
+shutil
+subprocess
+sys
+time
+zipfile
+st
+analysis/
+2}
